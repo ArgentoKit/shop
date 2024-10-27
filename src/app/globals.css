@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --background-color: #FBF8EC;
+    --surface-color: #FFFFFF;
+
+    --orange-enabled-color: #FF6633;
+    --orange-muted-color: #FCD5BA;
+
+    --salad-enabled-color: #70C05B;
+    --salad-muted-color: #E5FFDE;
+
+    --red-enabled-color: #D80000;
+    --red-muted-color: #FFC7C7;
+
+    --black-color: #291E0F;
+    --coal-color: #414141;
+
+    --gray-lightest-color: #F3F2F1;
+    --gray-light-color: #BFBFBF;
+    --gray-hard-color: #8F8F8F;
+    --gray-hardest-color: #606060;
+
+    --success-color: #008C49;
+    --info-color: #1CB9FC;
+    --warning-color: #FCA21C;
+    --error-color: #D80000;
+}
