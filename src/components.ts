@@ -13,6 +13,12 @@ export default {
     '.btn-salad-enabled': {
         backgroundColor: 'var(--salad-enabled-color)'
     },
+    '.btn-salad-outline': {
+        color: 'var(--salad-enabled-color)',
+        border: '1px solid var(--salad-enabled-color)',
+        borderRadius: '4px',
+        borderColor: 'var(--salad-enabled-color)',
+    },
     '.btn-gray-enabled': {
         backgroundColor: 'var(--gray-lightest-color)',
         color: 'var(--gray-hardest-color)'

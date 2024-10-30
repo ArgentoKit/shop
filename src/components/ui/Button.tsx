@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 interface ButtonProps {
-    label: string;
+    label?: string;
     icon?: ReactNode;
     iconPos?: 'left' | 'right';
     className?: string;
