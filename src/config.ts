@@ -32,6 +32,7 @@ export const config: Config = {
                     hard: '#8F8F8F',
                     hardest: '#606060',
                 },
+                beige: '#F9F4E2',
                 success: '#008C49',
                 info: '#1CB9FC',
                 warning: '#FCA21C',
@@ -78,6 +79,9 @@ export const config: Config = {
                 'header-m': ['36px', '54px'],
                 'header-l': ['48px', '72px'],
                 'header-xl': ['64px', '96px'],
+            },
+            backgroundImage: {
+                'footer-pattern': "url('/images/common/bg-1.svg')",
             }
         }
     }

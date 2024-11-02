@@ -25,5 +25,13 @@ export default {
     },
     '.btn-red-enabled': {
         backgroundColor: 'var(--red-enabled-color)'
-    }
+    },
+    '.phone::before': {
+        content: '',
+        position: 'absolute',
+        width: '1.5rem',
+        height: '1.5rem',
+        backgroundImage: 'url("/images/common/phone.png")',
+        backgroundSize: 'contain',
+    },
 };
