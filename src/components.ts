@@ -26,6 +26,12 @@ export default {
     '.btn-red-enabled': {
         backgroundColor: 'var(--red-enabled-color)'
     },
+    '.gradient-green': {
+        background: 'linear-gradient(180deg, rgba(112,192,91,0) 0%, rgba(112,192,91,1) 100%)',
+    },
+    '.gradient-orange': {
+        background: 'linear-gradient(180deg, rgba(255,102,51,0) 0%, rgba(255,102,51,1) 100%)',
+    },
     '.phone::before': {
         content: '',
         position: 'absolute',

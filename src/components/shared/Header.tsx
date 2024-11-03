@@ -12,7 +12,7 @@ type HeaderProps = {
 
 export const Header: React.FC<HeaderProps> = ({ className }) => {
     return (
-        <header>
+        <header className='bg-surface shadow-blackS'>
             <Container>
                 <div className='flex gap-10 py-4'>
                     <Logo variant='logo-right-text' width={40} height={32} />
